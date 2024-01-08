@@ -7,34 +7,19 @@
 
 import SwiftUI
 
-struct CustomText : View {
-    let text: String
-    
-    var body: some View {
-        Text(text)
-    }
-    
-    init(text: String) {
-        print("creating a new customText")
-        self.text = text
-    }
-}
+
 
 struct ContentView: View {
+    //MARK: - PROPERTIES
+    let astronauts: [String: Astronaut] = Bundle.main.decode("astronauts.json")
+    
+    
+    let missions: [Mission] = Bundle.main.decode("missions.json")
+    
+    //MARK: - BODY
     var body: some View {
-        ScrollView(.horizontal){
-            LazyHStack(spacing: 20){
-                ForEach(0..<100){
-                   CustomText(text: "Item \($0)")
-                        
-                }
-                
-            }
-           
-        }
-          
-            
-            
+        Text(String(astronauts.count))
+        Text(String(missions.count))
     }
 }
 

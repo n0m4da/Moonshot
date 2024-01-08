@@ -6,10 +6,30 @@
 //
 
 import SwiftUI
-
+struct CustomText : View {
+    let text: String
+    
+    var body: some View {
+        Text(text)
+    }
+    
+    init(text: String) {
+        print("creating a new customText")
+        self.text = text
+    }
+}
 struct scrollView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView(.horizontal){
+            LazyHStack(spacing: 20){
+                ForEach(0..<100){
+                   CustomText(text: "Item \($0)")
+                        
+                }
+                
+            }
+           
+        }
     }
 }
 
