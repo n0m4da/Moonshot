@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC0070152B536E84007CB7A8 /* astronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0070142B536E84007CB7A8 /* astronautView.swift */; };
 		CC267FD42B4C9DDF008ACE1B /* lazyHGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC267FD32B4C9DDF008ACE1B /* lazyHGrid.swift */; };
 		CC267FD72B4C9ECB008ACE1B /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = CC267FD52B4C9ECB008ACE1B /* astronauts.json */; };
 		CC267FD82B4C9ECB008ACE1B /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = CC267FD62B4C9ECB008ACE1B /* missions.json */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC0070142B536E84007CB7A8 /* astronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = astronautView.swift; sourceTree = "<group>"; };
 		CC267FD32B4C9DDF008ACE1B /* lazyHGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lazyHGrid.swift; sourceTree = "<group>"; };
 		CC267FD52B4C9ECB008ACE1B /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
 		CC267FD62B4C9ECB008ACE1B /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
@@ -79,6 +81,8 @@
 				CC84F0CE2B49176A000AE249 /* New Group */,
 				CC84F0BE2B49135F000AE249 /* MoonshotApp.swift */,
 				CC84F0C02B49135F000AE249 /* ContentView.swift */,
+				CCAFEE892B51E41900190576 /* MissionView.swift */,
+				CC0070142B536E84007CB7A8 /* astronautView.swift */,
 				CC267FDB2B4C9FFE008ACE1B /* Bundle-Decodable.swift */,
 				CC267FD92B4C9F4D008ACE1B /* Astronaut.swift */,
 				CC267FDD2B4CA610008ACE1B /* Mission.swift */,
@@ -91,7 +95,6 @@
 				CCC6467A2B4A593900CBE9CC /* scrollView.swift */,
 				CC267FD32B4C9DDF008ACE1B /* lazyHGrid.swift */,
 				CC5D413F2B50F80F00B6EC26 /* Color-Theme.swift */,
-				CCAFEE892B51E41900190576 /* MissionView.swift */,
 			);
 			path = Moonshot;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				CC267FD42B4C9DDF008ACE1B /* lazyHGrid.swift in Sources */,
 				CC267FDC2B4C9FFE008ACE1B /* Bundle-Decodable.swift in Sources */,
 				CCC6467B2B4A593900CBE9CC /* scrollView.swift in Sources */,
+				CC0070152B536E84007CB7A8 /* astronautView.swift in Sources */,
 				CC84F0CD2B4915A6000AE249 /* imageSizes.swift in Sources */,
 				CC267FDE2B4CA610008ACE1B /* Mission.swift in Sources */,
 				CCC6467D2B4A59B600CBE9CC /* hiterachableData.swift in Sources */,
